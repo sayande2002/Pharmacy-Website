@@ -1,0 +1,28 @@
+.category-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    padding: 0.3rem 1rem;
+    width: 200px;
+    height: 30px;
+  }
+
+  button {
+    padding: 0.3rem;
+  }
+}
+
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 20px;
+  row-gap: 50px;
+}
+
+.category-title {
+  font-size: 38px;
+  margin-bottom: 25px;
+  text-align: center;
+}
